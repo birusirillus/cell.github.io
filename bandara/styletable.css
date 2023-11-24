@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Gaya untuk tabel */
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    margin: 20px auto;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Gaya untuk tombol Tambahkan Data Baru */
+  a.add-button {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  /* Gaya untuk tombol Hapus dan Edit */
+  a.action-button1 {
+    padding: 7px 7px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  a.action-button2 {
+    padding: 7px 7px;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: #5ad94f;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  a.edit-button {
+    background-color: #5bc0de;
+  }
+  
+  * {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .tambah {
+    color: #d9534f;
+  }
+  th {
+    background-color: #333950;
+    color: white;
+    font-weight: bold;
+  }
+  tr:nth-child(odd){
+    background-color: rgb(235, 234, 234);
+}
